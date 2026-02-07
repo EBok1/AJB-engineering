@@ -1,0 +1,100 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "title": "AJB Engineering",
+    "subtitle": "Technical precision, clear visualizations, and smart system integration for innovative solutions.",
+    "learnMore": "Learn more"
+  },
+  "services": {
+    "title": "Our services",
+    "cadDesign": "CAD Design",
+    "technicalDrawing": "Technical Drawing",
+    "systemIntegration": "System Integration",
+    "projectManagement": "Project Management",
+    "qualityControl": "Quality Control"
+  },
+  "about": {
+    "pageTitle": "About AJB-Engineering",
+    "pageSubtitle": "Technical precision, clear visualizations, and smart system integration.",
+    "intro": "At AJB-Engineering, we bring technical drawing and integration to life. We specialize in creating accurate and clear 3D and 2D CAD drawings for mechanical and electrical installations. Every design is custom-made and perfectly tailored to your project needs.",
+    "certification": "Our Onshape Certified Professional status guarantees a professional approach and up-to-date expertise in modern CAD software.",
+    "visualization": "We also create 3D visualizations, making technical drawings easy to present online or through media—ideal for presentations or marketing purposes.",
+    "integration": "But we go beyond design. With our system integration, we bring multiple disciplines together into one seamless whole. Think of integration between:",
+    "integrationList": {
+      "mechanical": "Mechanical installations",
+      "plc": "PLC programming",
+      "showcontrol": "Timeline-controlled show control equipment",
+      "audioVideo": "Audio and video systems",
+      "animatronics": "Animatronics and special effects"
+    },
+    "conclusion": "This is how we transform complex technical installations into interactive total solutions.",
+    "whyChoose": "Why choose AJB-Engineering?",
+    "features": {
+      "specialization": {
+        "title": "Specialization",
+        "description": "Focus on CAD drawings, 3D visualization, and integration in technical installations."
+      },
+      "innovation": {
+        "title": "Innovation-focused",
+        "description": "Technical precision combined with creative visualization and smart connections."
+      },
+      "flexible": {
+        "title": "Flexible solutions",
+        "description": "Custom solutions for mechanical and electrical engineering projects."
+      }
+    },
+    "servicesTitle": "Our services",
+    "servicesTable": {
+      "service": "Service",
+      "description": "Description",
+      "cad": "3D & 2D CAD designs",
+      "cadDesc": "Technical drawings in modern CAD software for various disciplines.",
+      "visualization": "3D visualizations",
+      "visualizationDesc": "Visualizations for media, presentations, or marketing purposes.",
+      "integration": "System integration",
+      "integrationDesc": "Connection and coordination of multiple technical disciplines and systems."
+    },
+    "goalTitle": "Our goal",
+    "goalText": "At AJB-Engineering, we strive to connect technical precision with creative visual support and smart system integration. Quality is our foundation and customer focus is our commitment—for reliable solutions that work the way you want."
+  },
+  "projects": {
+    "pageTitle": "Projects",
+    "pageSubtitle": "View a selection of our work",
+    "intro": "At AJB-Engineering, we have completed various projects in mechanical engineering, electrical engineering, and system integration. From technical CAD drawings to complete visualizations and integrated solutions—every project receives our full attention and expertise.",
+    "items": {
+      "cad": {
+        "category": "Mechanical Engineering",
+        "title": "CAD Design Production Line",
+        "description": "Complete 3D and 2D CAD drawings for an automated production line in the food industry."
+      },
+      "electrical": {
+        "category": "Electrical Engineering",
+        "title": "Electrical Installation",
+        "description": "Technical documentation and visualizations for a complex electrical installation."
+      },
+      "showcontrol": {
+        "category": "System Integration",
+        "title": "Show Control System",
+        "description": "Integration of PLC software with audio, video, and animatronics for an interactive attraction."
+      }
+    },
+    "ctaTitle": "Interested in a collaboration?",
+    "ctaText": "Contact us for a no-obligation conversation about your project. We are happy to think along with you about the best solutions.",
+    "ctaButton": "Contact us"
+  },
+  "footer": {
+    "company": "AJB Engineering",
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "switchTo": "Change language",
+    "dutch": "Dutch",
+    "english": "English",
+    "german": "German"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Over ons",
+    "projects": "Projecten",
+    "skipToContent": "Ga naar inhoud"
+  },
+  "hero": {
+    "title": "AJB Engineering",
+    "subtitle": "Technische precisie, heldere visualisaties en slimme systeemintegratie voor innovatieve oplossingen.",
+    "learnMore": "Meer informatie"
+  },
+  "services": {
+    "title": "Onze diensten",
+    "cadDesign": "CAD Ontwerp",
+    "technicalDrawing": "Technisch Tekenen",
+    "systemIntegration": "Systeemintegratie",
+    "projectManagement": "Projectbeheer",
+    "qualityControl": "Kwaliteitscontrole"
+  },
+  "about": {
+    "pageTitle": "Over AJB-Engineering",
+    "pageSubtitle": "Technische precisie, heldere visualisaties en slimme systeemintegratie.",
+    "intro": "Bij AJB-Engineering brengen we technisch tekenen en integratie tot leven. Wij zijn gespecialiseerd in het creëren van accurate en heldere 3D- en 2D-CAD-tekeningen voor werktuigbouwkundige en elektrotechnische installaties. Elk ontwerp is op maat gemaakt en perfect afgestemd op jouw projectbehoefte.",
+    "certification": "Onze Onshape Certified Professional status garandeert een professionele aanpak en actuele expertise in moderne CAD-software.",
+    "visualization": "Daarnaast realiseren we 3D-visualisaties, waarmee technische tekeningen eenvoudig online of via media worden gepresenteerd—ideaal voor presentaties of marketingdoeleinden.",
+    "integration": "Maar we gaan verder dan ontwerpen alleen. Met onze systeemintegratie brengen we meerdere disciplines samen tot één naadloos geheel. Denk aan de integratie tussen:",
+    "integrationList": {
+      "mechanical": "Mechanische installaties",
+      "plc": "PLC-programmatuur",
+      "showcontrol": "Tijdlijn-gestuurde showcontrol-apparatuur",
+      "audioVideo": "Audio en video systemen",
+      "animatronics": "Animatronics en special-effects"
+    },
+    "conclusion": "Zo transformeren we complexe technische installaties tot interactieve totaaloplossingen.",
+    "whyChoose": "Waarom AJB-Engineering kiezen?",
+    "features": {
+      "specialization": {
+        "title": "Specialisatie",
+        "description": "Focus op CAD-tekeningen, 3D-visualisatie en integratie in technische installaties."
+      },
+      "innovation": {
+        "title": "Innovatiegericht",
+        "description": "Technische precisie gecombineerd met creatieve visualisering en slimme koppelingen."
+      },
+      "flexible": {
+        "title": "Flexibele oplossingen",
+        "description": "Maatwerk voor werktuigbouwkundige en elektrotechnische projecten."
+      }
+    },
+    "servicesTitle": "Onze diensten",
+    "servicesTable": {
+      "service": "Dienst",
+      "description": "Beschrijving",
+      "cad": "3D & 2D CAD-ontwerpen",
+      "cadDesc": "Technische tekeningen in moderne CAD-software voor verschillende disciplines.",
+      "visualization": "3D-visualisaties",
+      "visualizationDesc": "Visualisaties voor media, presentaties of marketingdoeleinden.",
+      "integration": "Systeemintegratie",
+      "integrationDesc": "Koppeling en coördinatie van meerdere technische disciplines en systemen."
+    },
+    "goalTitle": "Ons doel",
+    "goalText": "Bij AJB-Engineering streven we ernaar om technische precisie te verbinden met creatieve visuele ondersteuning en slimme systeemintegratie. Kwaliteit is ons uitgangspunt en klantgerichtheid ons commitment—voor betrouwbare oplossingen die werken zoals jij dat wilt."
+  },
+  "projects": {
+    "pageTitle": "Projecten",
+    "pageSubtitle": "Bekijk een selectie van onze werkzaamheden",
+    "intro": "Bij AJB-Engineering hebben we diverse projecten uitgevoerd in werktuigbouwkunde, elektrotechniek en systeemintegratie. Van technische CAD-tekeningen tot complete visualisaties en geïntegreerde oplossingen—elk project krijgt onze volle aandacht en expertise.",
+    "items": {
+      "cad": {
+        "category": "Werktuigbouw",
+        "title": "CAD Ontwerp Productielijn",
+        "description": "Complete 3D- en 2D-CAD-tekeningen voor een geautomatiseerde productielijn in de voedingsindustrie."
+      },
+      "electrical": {
+        "category": "Elektrotechniek",
+        "title": "Elektrotechnische Installatie",
+        "description": "Technische documentatie en visualisaties voor een complexe elektrotechnische installatie."
+      },
+      "showcontrol": {
+        "category": "Systeemintegratie",
+        "title": "Showcontrol Systeem",
+        "description": "Integratie van PLC-programmatuur met audio, video en animatronics voor een interactieve attractie."
+      }
+    },
+    "ctaTitle": "Interesse in een samenwerking?",
+    "ctaText": "Neem contact met ons op voor een vrijblijvend gesprek over uw project. Wij denken graag met u mee over de beste oplossingen.",
+    "ctaButton": "Contact opnemen"
+  },
+  "footer": {
+    "company": "AJB Engineering",
+    "rights": "Alle rechten voorbehouden."
+  },
+  "language": {
+    "switchTo": "Taal wijzigen",
+    "dutch": "Nederlands",
+    "english": "Engels",
+    "german": "Duits"
+  }
+}

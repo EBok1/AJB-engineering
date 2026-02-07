@@ -1,15 +1,22 @@
-'use client'
+'use client';
+
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear()
-  
+  const t = useTranslations('footer');
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer>
-      <p>AJB Engineering</p>
-      <p>
-        <a href="mailto:info@ajb-engineering.nl">info@ajb-engineering.nl</a>
-      </p>
-      <p>© {currentYear} AJB-Engineering. Alle rechten voorbehouden.</p>
+    <footer className="footer">
+      <div className="footer-container">
+        <p>{t('company')}</p>
+        <p>
+          <a href="mailto:info@ajb-engineering.nl">info@ajb-engineering.nl</a>
+        </p>
+        <p>
+          © {currentYear} AJB-Engineering. {t('rights')}
+        </p>
+      </div>
     </footer>
-  )
+  );
 }

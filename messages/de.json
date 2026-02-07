@@ -1,0 +1,100 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "projects": "Projekte",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "hero": {
+    "title": "AJB Engineering",
+    "subtitle": "Technische Präzision, klare Visualisierungen und intelligente Systemintegration für innovative Lösungen.",
+    "learnMore": "Mehr erfahren"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "cadDesign": "CAD-Design",
+    "technicalDrawing": "Technisches Zeichnen",
+    "systemIntegration": "Systemintegration",
+    "projectManagement": "Projektmanagement",
+    "qualityControl": "Qualitätskontrolle"
+  },
+  "about": {
+    "pageTitle": "Über AJB-Engineering",
+    "pageSubtitle": "Technische Präzision, klare Visualisierungen und intelligente Systemintegration.",
+    "intro": "Bei AJB-Engineering erwecken wir technisches Zeichnen und Integration zum Leben. Wir sind spezialisiert auf die Erstellung präziser und klarer 3D- und 2D-CAD-Zeichnungen für maschinenbauliche und elektrotechnische Anlagen. Jedes Design wird maßgeschneidert und perfekt auf Ihre Projektanforderungen abgestimmt.",
+    "certification": "Unser Onshape Certified Professional Status garantiert eine professionelle Arbeitsweise und aktuelles Fachwissen in moderner CAD-Software.",
+    "visualization": "Wir erstellen auch 3D-Visualisierungen, die technische Zeichnungen einfach online oder über Medien präsentieren lassen – ideal für Präsentationen oder Marketingzwecke.",
+    "integration": "Aber wir gehen über das Design hinaus. Mit unserer Systemintegration führen wir mehrere Disziplinen zu einem nahtlosen Ganzen zusammen. Denken Sie an die Integration zwischen:",
+    "integrationList": {
+      "mechanical": "Mechanische Anlagen",
+      "plc": "SPS-Programmierung",
+      "showcontrol": "Zeitliniengesteuerte Showcontrol-Geräte",
+      "audioVideo": "Audio- und Videosysteme",
+      "animatronics": "Animatronics und Spezialeffekte"
+    },
+    "conclusion": "So verwandeln wir komplexe technische Anlagen in interaktive Gesamtlösungen.",
+    "whyChoose": "Warum AJB-Engineering wählen?",
+    "features": {
+      "specialization": {
+        "title": "Spezialisierung",
+        "description": "Fokus auf CAD-Zeichnungen, 3D-Visualisierung und Integration in technischen Anlagen."
+      },
+      "innovation": {
+        "title": "Innovationsorientiert",
+        "description": "Technische Präzision kombiniert mit kreativer Visualisierung und intelligenten Verbindungen."
+      },
+      "flexible": {
+        "title": "Flexible Lösungen",
+        "description": "Maßgeschneiderte Lösungen für maschinenbauliche und elektrotechnische Projekte."
+      }
+    },
+    "servicesTitle": "Unsere Dienstleistungen",
+    "servicesTable": {
+      "service": "Dienstleistung",
+      "description": "Beschreibung",
+      "cad": "3D- & 2D-CAD-Designs",
+      "cadDesc": "Technische Zeichnungen in moderner CAD-Software für verschiedene Disziplinen.",
+      "visualization": "3D-Visualisierungen",
+      "visualizationDesc": "Visualisierungen für Medien, Präsentationen oder Marketingzwecke.",
+      "integration": "Systemintegration",
+      "integrationDesc": "Verbindung und Koordination mehrerer technischer Disziplinen und Systeme."
+    },
+    "goalTitle": "Unser Ziel",
+    "goalText": "Bei AJB-Engineering streben wir danach, technische Präzision mit kreativer visueller Unterstützung und intelligenter Systemintegration zu verbinden. Qualität ist unser Fundament und Kundenorientierung unser Versprechen – für zuverlässige Lösungen, die so funktionieren, wie Sie es wünschen."
+  },
+  "projects": {
+    "pageTitle": "Projekte",
+    "pageSubtitle": "Sehen Sie eine Auswahl unserer Arbeiten",
+    "intro": "Bei AJB-Engineering haben wir verschiedene Projekte im Maschinenbau, in der Elektrotechnik und in der Systemintegration durchgeführt. Von technischen CAD-Zeichnungen bis hin zu kompletten Visualisierungen und integrierten Lösungen – jedes Projekt erhält unsere volle Aufmerksamkeit und Expertise.",
+    "items": {
+      "cad": {
+        "category": "Maschinenbau",
+        "title": "CAD-Design Produktionslinie",
+        "description": "Komplette 3D- und 2D-CAD-Zeichnungen für eine automatisierte Produktionslinie in der Lebensmittelindustrie."
+      },
+      "electrical": {
+        "category": "Elektrotechnik",
+        "title": "Elektrotechnische Installation",
+        "description": "Technische Dokumentation und Visualisierungen für eine komplexe elektrotechnische Installation."
+      },
+      "showcontrol": {
+        "category": "Systemintegration",
+        "title": "Showcontrol-System",
+        "description": "Integration von SPS-Software mit Audio, Video und Animatronics für eine interaktive Attraktion."
+      }
+    },
+    "ctaTitle": "Interesse an einer Zusammenarbeit?",
+    "ctaText": "Kontaktieren Sie uns für ein unverbindliches Gespräch über Ihr Projekt. Wir denken gerne mit Ihnen über die besten Lösungen nach.",
+    "ctaButton": "Kontaktieren Sie uns"
+  },
+  "footer": {
+    "company": "AJB Engineering",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "language": {
+    "switchTo": "Sprache ändern",
+    "dutch": "Niederländisch",
+    "english": "Englisch",
+    "german": "Deutsch"
+  }
+}
