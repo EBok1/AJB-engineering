@@ -1,30 +1,42 @@
 {
   "navigation": {
     "home": "Home",
-    "about": "Over ons",
+    "about": "Over mij",
     "projects": "Projecten",
+    "contact": "Contact",
     "skipToContent": "Ga naar inhoud"
   },
   "hero": {
     "title": "AJB Engineering",
-    "subtitle": "Technische precisie, heldere visualisaties en slimme systeemintegratie voor innovatieve oplossingen.",
-    "learnMore": "Meer informatie"
+    "subtitle": "Van schets tot werkelijkheid. Technische uitdagingen omgezet in concrete oplossingen.",
+    "ctaProjects": "Bekijk projecten",
+    "ctaContact": "Neem contact op"
   },
   "services": {
-    "title": "Onze diensten",
-    "cadDesign": "CAD Ontwerp",
-    "technicalDrawing": "Technisch Tekenen",
-    "systemIntegration": "Systeemintegratie",
-    "projectManagement": "Projectbeheer",
-    "qualityControl": "Kwaliteitscontrole"
+    "title": "Diensten",
+    "cadDesign": "CAD Ontwerpen",
+    "visualization": "3D Visualisaties",
+    "systemIntegration": "Systeemintegratie"
+  },
+  "projectsCta": {
+    "eyebrow": "Portfolio",
+    "title": "Bekijk eerdere projecten",
+    "text": "Benieuwd wat er zoal voorbijkomt? Bekijk een aantal voorbeelden van projecten van de afgelopen jaren.",
+    "button": "Bekijk projecten"
+  },
+  "homeAbout": {
+    "para1": "Technisch tekenen is meer dan lijnen op papier. Het is het verschil tussen een idee dat blijft steken en een ontwerp dat daadwerkelijk gebouwd kan worden.",
+    "para2": "AJB Engineering richt zich op 2D- en 3D-CAD-tekeningen voor werktuigbouwkundige en elektrotechnische installaties. Elk ontwerp wordt op maat gemaakt, afgestemd op wat het project vraagt.",
+    "para3": "Daarnaast worden 3D-visualisaties gemaakt die technische tekeningen begrijpelijk maken, voor presentaties en marketingdoeleinden.",
+    "readMore": "Lees meer over AJB Engineering"
   },
   "about": {
-    "pageTitle": "Over AJB-Engineering",
-    "pageSubtitle": "Technische precisie, heldere visualisaties en slimme systeemintegratie.",
-    "intro": "Bij AJB-Engineering brengen we technisch tekenen en integratie tot leven. Wij zijn gespecialiseerd in het creëren van accurate en heldere 3D- en 2D-CAD-tekeningen voor werktuigbouwkundige en elektrotechnische installaties. Elk ontwerp is op maat gemaakt en perfect afgestemd op jouw projectbehoefte.",
-    "certification": "Onze Onshape Certified Professional status garandeert een professionele aanpak en actuele expertise in moderne CAD-software.",
-    "visualization": "Daarnaast realiseren we 3D-visualisaties, waarmee technische tekeningen eenvoudig online of via media worden gepresenteerd—ideaal voor presentaties of marketingdoeleinden.",
-    "integration": "Maar we gaan verder dan ontwerpen alleen. Met onze systeemintegratie brengen we meerdere disciplines samen tot één naadloos geheel. Denk aan de integratie tussen:",
+    "pageTitle": "Over AJB Engineering",
+    "pageSubtitle": "Onshape Certified Professional, gespecialiseerd in werktuigbouwkundige en elektrotechnische tekeningen.",
+    "intro": "Technisch tekenen is meer dan lijnen op papier. Het is het verschil tussen een idee dat blijft steken en een ontwerp dat daadwerkelijk gebouwd kan worden.",
+    "cadParagraph": "AJB Engineering richt zich op 2D- en 3D-CAD-tekeningen voor werktuigbouwkundige en elektrotechnische installaties. Elk ontwerp wordt op maat gemaakt, afgestemd op wat het project vraagt.",
+    "visualization": "Daarnaast worden 3D-visualisaties gemaakt die technische tekeningen begrijpelijk maken, voor presentaties en marketingdoeleinden.",
+    "integration": "Maar het stopt niet bij ontwerpen alleen. Bij systeemintegratie worden meerdere disciplines samengevoegd tot één werkend geheel. Denk aan:",
     "integrationList": {
       "mechanical": "Mechanische installaties",
       "plc": "PLC-programmatuur",
@@ -32,60 +44,104 @@
       "audioVideo": "Audio en video systemen",
       "animatronics": "Animatronics en special-effects"
     },
-    "conclusion": "Zo transformeren we complexe technische installaties tot interactieve totaaloplossingen.",
-    "whyChoose": "Waarom AJB-Engineering kiezen?",
+    "conclusion": "Van los concept tot interactieve totaalinstallatie.",
+    "whyChoose": "Wat AJB Engineering doet",
     "features": {
       "specialization": {
-        "title": "Specialisatie",
-        "description": "Focus op CAD-tekeningen, 3D-visualisatie en integratie in technische installaties."
+        "title": "CAD tekeningen",
+        "description": "2D en 3D ontwerpen voor werktuigbouw en elektrotechniek, nauwkeurig en op maat."
       },
       "innovation": {
-        "title": "Innovatiegericht",
-        "description": "Technische precisie gecombineerd met creatieve visualisering en slimme koppelingen."
+        "title": "3D Visualisaties",
+        "description": "Technische tekeningen omgezet naar beelden die direct te presenteren zijn."
       },
       "flexible": {
-        "title": "Flexibele oplossingen",
-        "description": "Maatwerk voor werktuigbouwkundige en elektrotechnische projecten."
+        "title": "Systeemintegratie",
+        "description": "Losse onderdelen samengebracht tot één werkend en controleerbaar geheel."
       }
+    }
+  },
+  "servicePages": {
+    "backToHome": "← Terug naar home",
+    "cad": {
+      "title": "CAD Ontwerpen",
+      "subtitle": "Nauwkeurige 3D- en 2D-tekeningen op maat voor uw project.",
+      "intro": "Met moderne CAD-software (Onshape) lever ik professionele 3D-modellen en 2D-werktekeningen voor werktuigbouwkundige en elektrotechnische installaties. Elk ontwerp wordt volledig op maat gemaakt en afgestemd op uw specificaties en normen.",
+      "feature1Title": "3D Modellering",
+      "feature1Text": "Gedetailleerde 3D-modellen van componenten, assemblages en complete installaties — overzichtelijk en controleerbaar.",
+      "feature2Title": "2D Werktekeningen",
+      "feature2Text": "Productie- en revisietekeningen conform technische normen, voorzien van maatvoeringen, stuklijsten en toleranties.",
+      "feature3Title": "Onshape Certified",
+      "feature3Text": "Als Onshape Certified Professional werk ik met toonaangevende cloud-CAD-software voor efficiënte samenwerking en versiebeheer.",
+      "ctaTitle": "Een CAD-ontwerp nodig?",
+      "ctaText": "Neem contact op voor een vrijblijvend gesprek over uw project.",
+      "ctaButton": "Contact opnemen"
     },
-    "servicesTitle": "Onze diensten",
-    "servicesTable": {
-      "service": "Dienst",
-      "description": "Beschrijving",
-      "cad": "3D & 2D CAD-ontwerpen",
-      "cadDesc": "Technische tekeningen in moderne CAD-software voor verschillende disciplines.",
-      "visualization": "3D-visualisaties",
-      "visualizationDesc": "Visualisaties voor media, presentaties of marketingdoeleinden.",
-      "integration": "Systeemintegratie",
-      "integrationDesc": "Koppeling en coördinatie van meerdere technische disciplines en systemen."
+    "visualization": {
+      "title": "3D Visualisaties",
+      "subtitle": "Technische tekeningen omgezet naar overtuigende visuele presentaties.",
+      "intro": "Met 3D-visualisaties breng ik uw technische ontwerpen tot leven. Of het nu gaat om een presentatie voor een klant, promotiemateriaal of een duidelijke uitleg van een complex systeem — een goede visualisatie maakt het verschil.",
+      "feature1Title": "Presentatie-klaar",
+      "feature1Text": "Foto-realistische renders en animaties die uw product of installatie professioneel in beeld brengen.",
+      "feature2Title": "Marketing & Media",
+      "feature2Text": "Visualisaties geschikt voor websites, brochures, video's en sociale media — technisch correct én visueel aantrekkelijk.",
+      "feature3Title": "Technische Helderheid",
+      "feature3Text": "Doorsneden, exploded views en gelaagde presentaties die complexe systemen eenvoudig uitleggen.",
+      "ctaTitle": "Interesse in een visualisatie?",
+      "ctaText": "Neem contact op voor een vrijblijvend gesprek over uw project.",
+      "ctaButton": "Contact opnemen"
     },
-    "goalTitle": "Ons doel",
-    "goalText": "Bij AJB-Engineering streven we ernaar om technische precisie te verbinden met creatieve visuele ondersteuning en slimme systeemintegratie. Kwaliteit is ons uitgangspunt en klantgerichtheid ons commitment—voor betrouwbare oplossingen die werken zoals jij dat wilt."
+    "integration": {
+      "title": "Systeemintegratie",
+      "subtitle": "Meerdere disciplines samengebracht tot één naadloos geheel.",
+      "intro": "Systeemintegratie is het verbinden van afzonderlijke technische systemen tot één functionerend geheel. Ik coördineer en integreer mechanische, elektrische en software-gestuurde systemen — van PLC-programmatuur tot showcontrol en audiovisuele installaties.",
+      "feature1Title": "Multi-disciplinair",
+      "feature1Text": "Integratie van mechanica, elektrotechniek, PLC-programmatuur, audio/video en animatronics in één systeem.",
+      "feature2Title": "Showcontrol",
+      "feature2Text": "Tijdlijn-gestuurde systemen voor interactieve attracties, theatertechniek en special-effects installaties.",
+      "feature3Title": "Projectcoördinatie",
+      "feature3Text": "Technische afstemming tussen disciplines, leveranciers en opdrachtgevers voor een vlekkeloos eindresultaat.",
+      "ctaTitle": "Complex project?",
+      "ctaText": "Neem contact op voor een vrijblijvend gesprek over uw integratievraagstuk.",
+      "ctaButton": "Contact opnemen"
+    }
   },
   "projects": {
     "pageTitle": "Projecten",
-    "pageSubtitle": "Bekijk een selectie van onze werkzaamheden",
-    "intro": "Bij AJB-Engineering hebben we diverse projecten uitgevoerd in werktuigbouwkunde, elektrotechniek en systeemintegratie. Van technische CAD-tekeningen tot complete visualisaties en geïntegreerde oplossingen—elk project krijgt onze volle aandacht en expertise.",
+    "intro": "Van constructietekeningen tot chassisontwerpen, elk project is op maat uitgewerkt.",
     "items": {
-      "cad": {
-        "category": "Werktuigbouw",
-        "title": "CAD Ontwerp Productielijn",
-        "description": "Complete 3D- en 2D-CAD-tekeningen voor een geautomatiseerde productielijn in de voedingsindustrie."
+      "plantMachineFrames": {
+        "title": "Diverse Frames voor Plantmachines",
+        "description": "Ontwerp en uitwerking van diverse frames voor gebruik in plantmachines. Al dan niet met speciale wensen van klant, bijvoorbeeld sturende achterwielen."
       },
-      "electrical": {
-        "category": "Elektrotechniek",
-        "title": "Elektrotechnische Installatie",
-        "description": "Technische documentatie en visualisaties voor een complexe elektrotechnische installatie."
+      "hekwerkCarrousel": {
+        "title": "Hekwerk voor Carrousel",
+        "description": "Constructietekeningen voor een hekwerk rondom een carrousel. Inclusief maatvoeringen en details voor fabricage."
       },
-      "showcontrol": {
-        "category": "Systeemintegratie",
-        "title": "Showcontrol Systeem",
-        "description": "Integratie van PLC-programmatuur met audio, video en animatronics voor een interactieve attractie."
+      "chassisStacaravan": {
+        "title": "Chassis voor Stacaravan / Tiny House",
+        "description": "Chassisontwerp voor een stacaravan en tiny house. Voor klant getekend in verschillende maat uitvoeringen 5,5mx2,7m, 11mx2,7m en een XL-versie 12,4mx3,8m. Alle drie de maten ook in een deelbare variant voor efficiënt transport van meerdere chassis tegelijk op dieplader."
+      },
+      "bootLader": {
+        "title": "Boot Lader",
+        "description": "Ontwerp en uitwerking van een boot lader. Van concept tot productieklare tekeningen."
+      },
+      "opklapbareTrap": {
+        "title": "Opklapbare Trap",
+        "description": "Opklap en uitschuif trap, op maat gemaakt voor spiegelklep aan zeiljacht met twee verschillende eindposities."
       }
     },
+    "backToProjects": "Terug naar projecten",
     "ctaTitle": "Interesse in een samenwerking?",
-    "ctaText": "Neem contact met ons op voor een vrijblijvend gesprek over uw project. Wij denken graag met u mee over de beste oplossingen.",
+    "ctaText": "Neem contact met mij op voor een vrijblijvend gesprek over uw project. Ik denk graag met u mee over de beste oplossingen.",
     "ctaButton": "Contact opnemen"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "Heeft u een vraag of een project in gedachten? Neem gerust contact op.",
+    "intro": "De snelste manier om mij te bereiken is via LinkedIn of e-mail. Ik reageer zo snel mogelijk.",
+    "linkedinLabel": "Bekijk mijn LinkedIn",
+    "emailLabel": "Stuur een e-mail"
   },
   "footer": {
     "company": "AJB Engineering",

@@ -1,30 +1,42 @@
 {
   "navigation": {
     "home": "Home",
-    "about": "About",
+    "about": "About me",
     "projects": "Projects",
+    "contact": "Contact",
     "skipToContent": "Skip to content"
   },
   "hero": {
     "title": "AJB Engineering",
-    "subtitle": "Technical precision, clear visualizations, and smart system integration for innovative solutions.",
-    "learnMore": "Learn more"
+    "subtitle": "From sketch to reality. Technical challenges turned into concrete solutions.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch"
   },
   "services": {
-    "title": "Our services",
+    "title": "Services",
     "cadDesign": "CAD Design",
-    "technicalDrawing": "Technical Drawing",
-    "systemIntegration": "System Integration",
-    "projectManagement": "Project Management",
-    "qualityControl": "Quality Control"
+    "visualization": "3D Visualisation",
+    "systemIntegration": "System Integration"
+  },
+  "projectsCta": {
+    "eyebrow": "Portfolio",
+    "title": "View previous projects",
+    "text": "Curious what comes by? View some examples of projects from the past few years.",
+    "button": "View projects"
+  },
+  "homeAbout": {
+    "para1": "Technical drawing is more than lines on paper. It is the difference between an idea that stays stuck and a design that can actually be built.",
+    "para2": "AJB Engineering focuses on 2D and 3D CAD drawings for mechanical and electrical installations. Every design is custom-made, tailored to what the project requires.",
+    "para3": "In addition, 3D visualizations are created that make technical drawings understandable, for presentations and marketing purposes.",
+    "readMore": "Read more about AJB Engineering"
   },
   "about": {
-    "pageTitle": "About AJB-Engineering",
-    "pageSubtitle": "Technical precision, clear visualizations, and smart system integration.",
-    "intro": "At AJB-Engineering, we bring technical drawing and integration to life. We specialize in creating accurate and clear 3D and 2D CAD drawings for mechanical and electrical installations. Every design is custom-made and perfectly tailored to your project needs.",
-    "certification": "Our Onshape Certified Professional status guarantees a professional approach and up-to-date expertise in modern CAD software.",
-    "visualization": "We also create 3D visualizations, making technical drawings easy to present online or through media—ideal for presentations or marketing purposes.",
-    "integration": "But we go beyond design. With our system integration, we bring multiple disciplines together into one seamless whole. Think of integration between:",
+    "pageTitle": "About AJB Engineering",
+    "pageSubtitle": "Onshape Certified Professional, specialised in mechanical and electrical engineering drawings.",
+    "intro": "Technical drawing is more than lines on paper. It is the difference between an idea that stays stuck and a design that can actually be built.",
+    "cadParagraph": "AJB Engineering focuses on 2D and 3D CAD drawings for mechanical and electrical installations. Every design is custom-made, tailored to what the project requires.",
+    "visualization": "In addition, 3D visualizations are created that make technical drawings understandable, for presentations and marketing purposes.",
+    "integration": "But it doesn't stop at design alone. With system integration, multiple disciplines are combined into one working whole. Think of:",
     "integrationList": {
       "mechanical": "Mechanical installations",
       "plc": "PLC programming",
@@ -32,60 +44,104 @@
       "audioVideo": "Audio and video systems",
       "animatronics": "Animatronics and special effects"
     },
-    "conclusion": "This is how we transform complex technical installations into interactive total solutions.",
-    "whyChoose": "Why choose AJB-Engineering?",
+    "conclusion": "From loose concept to interactive total installation.",
+    "whyChoose": "What AJB Engineering does",
     "features": {
       "specialization": {
-        "title": "Specialization",
-        "description": "Focus on CAD drawings, 3D visualization, and integration in technical installations."
+        "title": "CAD drawings",
+        "description": "2D and 3D designs for mechanical and electrical engineering, accurate and custom-made."
       },
       "innovation": {
-        "title": "Innovation-focused",
-        "description": "Technical precision combined with creative visualization and smart connections."
+        "title": "3D Visualisations",
+        "description": "Technical drawings transformed into images that are ready to present."
       },
       "flexible": {
-        "title": "Flexible solutions",
-        "description": "Custom solutions for mechanical and electrical engineering projects."
+        "title": "System Integration",
+        "description": "Separate components brought together into one working and controllable whole."
       }
+    }
+  },
+  "servicePages": {
+    "backToHome": "← Back to home",
+    "cad": {
+      "title": "CAD Design",
+      "subtitle": "Accurate 3D and 2D drawings tailored to your project.",
+      "intro": "Using modern CAD software (Onshape), I deliver professional 3D models and 2D working drawings for mechanical and electrical installations. Every design is fully custom-made and aligned with your specifications and standards.",
+      "feature1Title": "3D Modelling",
+      "feature1Text": "Detailed 3D models of components, assemblies, and complete installations — clear and easy to verify.",
+      "feature2Title": "2D Working Drawings",
+      "feature2Text": "Production and revision drawings according to technical standards, with dimensions, parts lists, and tolerances.",
+      "feature3Title": "Onshape Certified",
+      "feature3Text": "As an Onshape Certified Professional, I work with leading cloud-CAD software for efficient collaboration and version control.",
+      "ctaTitle": "Need a CAD design?",
+      "ctaText": "Get in touch for a no-obligation conversation about your project.",
+      "ctaButton": "Contact me"
     },
-    "servicesTitle": "Our services",
-    "servicesTable": {
-      "service": "Service",
-      "description": "Description",
-      "cad": "3D & 2D CAD designs",
-      "cadDesc": "Technical drawings in modern CAD software for various disciplines.",
-      "visualization": "3D visualizations",
-      "visualizationDesc": "Visualizations for media, presentations, or marketing purposes.",
-      "integration": "System integration",
-      "integrationDesc": "Connection and coordination of multiple technical disciplines and systems."
+    "visualization": {
+      "title": "3D Visualisation",
+      "subtitle": "Technical drawings transformed into compelling visual presentations.",
+      "intro": "With 3D visualizations, I bring your technical designs to life. Whether for a client presentation, promotional material, or a clear explanation of a complex system — good visualization makes the difference.",
+      "feature1Title": "Presentation-ready",
+      "feature1Text": "Photo-realistic renders and animations that present your product or installation professionally.",
+      "feature2Title": "Marketing & Media",
+      "feature2Text": "Visualizations suitable for websites, brochures, videos, and social media — technically accurate and visually compelling.",
+      "feature3Title": "Technical Clarity",
+      "feature3Text": "Cross-sections, exploded views, and layered presentations that explain complex systems simply.",
+      "ctaTitle": "Interested in a visualisation?",
+      "ctaText": "Get in touch for a no-obligation conversation about your project.",
+      "ctaButton": "Contact me"
     },
-    "goalTitle": "Our goal",
-    "goalText": "At AJB-Engineering, we strive to connect technical precision with creative visual support and smart system integration. Quality is our foundation and customer focus is our commitment—for reliable solutions that work the way you want."
+    "integration": {
+      "title": "System Integration",
+      "subtitle": "Multiple disciplines brought together into one seamless whole.",
+      "intro": "System integration is connecting separate technical systems into one functioning whole. I coordinate and integrate mechanical, electrical, and software-driven systems — from PLC programming to show control and audiovisual installations.",
+      "feature1Title": "Multi-disciplinary",
+      "feature1Text": "Integration of mechanics, electrical engineering, PLC programming, audio/video, and animatronics into one system.",
+      "feature2Title": "Show Control",
+      "feature2Text": "Timeline-driven systems for interactive attractions, theatre technology, and special effects installations.",
+      "feature3Title": "Project Coordination",
+      "feature3Text": "Technical alignment between disciplines, suppliers, and clients for a flawless end result.",
+      "ctaTitle": "Complex project?",
+      "ctaText": "Get in touch for a no-obligation conversation about your integration challenge.",
+      "ctaButton": "Contact me"
+    }
   },
   "projects": {
     "pageTitle": "Projects",
-    "pageSubtitle": "View a selection of our work",
-    "intro": "At AJB-Engineering, we have completed various projects in mechanical engineering, electrical engineering, and system integration. From technical CAD drawings to complete visualizations and integrated solutions—every project receives our full attention and expertise.",
+    "intro": "From structural drawings to chassis designs, every project is tailored to the specific requirements.",
     "items": {
-      "cad": {
-        "category": "Mechanical Engineering",
-        "title": "CAD Design Production Line",
-        "description": "Complete 3D and 2D CAD drawings for an automated production line in the food industry."
+      "plantMachineFrames": {
+        "title": "Various Frames for Plant Machines",
+        "description": "Design and detailing of various frames for use in plant machines. With or without specific customer requirements, such as steered rear wheels."
       },
-      "electrical": {
-        "category": "Electrical Engineering",
-        "title": "Electrical Installation",
-        "description": "Technical documentation and visualizations for a complex electrical installation."
+      "hekwerkCarrousel": {
+        "title": "Fencing for Carousel",
+        "description": "Structural drawings for fencing around a carousel. Including dimensions and fabrication details."
       },
-      "showcontrol": {
-        "category": "System Integration",
-        "title": "Show Control System",
-        "description": "Integration of PLC software with audio, video, and animatronics for an interactive attraction."
+      "chassisStacaravan": {
+        "title": "Chassis for Static Caravan / Tiny House",
+        "description": "Chassis design for a static caravan and tiny house. Drawn for a client in various size versions: 5.5mx2.7m, 11mx2.7m and an XL version 12.4mx3.8m. All three sizes also in a splittable variant for efficient transport of multiple chassis at once on a low-loader."
+      },
+      "bootLader": {
+        "title": "Boat Loader",
+        "description": "Design and detailing of a boat loader. From concept to production-ready drawings."
+      },
+      "opklapbareTrap": {
+        "title": "Folding Staircase",
+        "description": "Fold-out and extendable staircase, custom-made for a mirror hatch on a sailing yacht with two different end positions."
       }
     },
-    "ctaTitle": "Interested in a collaboration?",
-    "ctaText": "Contact us for a no-obligation conversation about your project. We are happy to think along with you about the best solutions.",
-    "ctaButton": "Contact us"
+    "backToProjects": "Back to projects",
+    "ctaTitle": "Interested in working together?",
+    "ctaText": "Get in touch with me for a no-obligation conversation about your project. I am happy to think along with you about the best solutions.",
+    "ctaButton": "Contact me"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "Have a question or a project in mind? Feel free to get in touch.",
+    "intro": "The quickest way to reach me is via LinkedIn or email. I will respond as soon as possible.",
+    "linkedinLabel": "View my LinkedIn",
+    "emailLabel": "Send an email"
   },
   "footer": {
     "company": "AJB Engineering",
