@@ -1,3 +1,4 @@
+import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -5,6 +6,13 @@ import { routing } from '@/i18n/routing';
 import '../globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ScrollAnimator from '@/components/ScrollAnimator';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -16,10 +24,10 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  
+
   return {
-    title: locale === 'nl' 
-      ? 'AJB Engineering - CAD 3D en 2D' 
+    title: locale === 'nl'
+      ? 'AJB Engineering - CAD 3D en 2D'
       : 'AJB Engineering - CAD 3D and 2D',
     description: locale === 'nl'
       ? 'Technische precisie, heldere visualisaties en slimme systeemintegratie.'
@@ -35,8 +43,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  
-  // Validate locale
+
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
@@ -44,11 +51,26 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={inter.variable}>
       <head>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+        {/*
+          Anti-FOUC script: runs synchronously before the page paints.
+          Reads the saved theme from localStorage and applies it to <html>
+          so the correct theme is in place before React hydrates.
+        */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                var t = localStorage.getItem('theme');
+                if (t === 'light') document.documentElement.classList.add('light');
+              } catch(e) {}
+            `,
+          }}
         />
       </head>
       <body>
@@ -59,6 +81,8 @@ export default async function LocaleLayout({
           <Navbar />
           <main id="main-content">{children}</main>
           <Footer />
+          {/* Sets up IntersectionObserver for .animate-on-scroll elements */}
+          <ScrollAnimator />
         </NextIntlClientProvider>
       </body>
     </html>
