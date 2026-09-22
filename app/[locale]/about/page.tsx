@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 export default function AboutPage() {
   const t = useTranslations('about');
@@ -12,12 +13,12 @@ export default function AboutPage() {
 
       <section className="section">
         <div className="section-container">
-          <div className="content-block">
+          <div className="content-block animate-on-scroll">
             <p>{t('intro')}</p>
-            <p>{t('certification')}</p>
+            <p>{t('cadParagraph')}</p>
             <p>{t('visualization')}</p>
             <p>{t('integration')}</p>
-            
+
             <ul className="content-list">
               <li>{t('integrationList.mechanical')}</li>
               <li>{t('integrationList.plc')}</li>
@@ -25,59 +26,43 @@ export default function AboutPage() {
               <li>{t('integrationList.audioVideo')}</li>
               <li>{t('integrationList.animatronics')}</li>
             </ul>
-            
+
             <p>{t('conclusion')}</p>
           </div>
 
-          <h2 className="section-title" style={{ marginTop: '3rem' }}>
+          <h2
+            className="section-title animate-on-scroll"
+            style={{ marginTop: '3rem' }}
+          >
             {t('whyChoose')}
           </h2>
-          
+
+          {/* Cards link to the relevant service detail pages */}
           <div className="features-grid">
-            <div className="feature-card">
+            <Link
+              href="/services/cad-design"
+              className="feature-card animate-on-scroll"
+              style={{ '--stagger': '0', textDecoration: 'none', color: 'inherit' } as React.CSSProperties}
+            >
               <h3>{t('features.specialization.title')}</h3>
               <p>{t('features.specialization.description')}</p>
-            </div>
-            <div className="feature-card">
+            </Link>
+            <Link
+              href="/services/3d-visualization"
+              className="feature-card animate-on-scroll"
+              style={{ '--stagger': '1', textDecoration: 'none', color: 'inherit' } as React.CSSProperties}
+            >
               <h3>{t('features.innovation.title')}</h3>
               <p>{t('features.innovation.description')}</p>
-            </div>
-            <div className="feature-card">
+            </Link>
+            <Link
+              href="/services/system-integration"
+              className="feature-card animate-on-scroll"
+              style={{ '--stagger': '2', textDecoration: 'none', color: 'inherit' } as React.CSSProperties}
+            >
               <h3>{t('features.flexible.title')}</h3>
               <p>{t('features.flexible.description')}</p>
-            </div>
-          </div>
-
-          <h2 className="section-title" style={{ marginTop: '3rem' }}>
-            {t('servicesTitle')}
-          </h2>
-          
-          <table className="data-table">
-            <thead>
-              <tr>
-                <th>{t('servicesTable.service')}</th>
-                <th>{t('servicesTable.description')}</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>{t('servicesTable.cad')}</td>
-                <td>{t('servicesTable.cadDesc')}</td>
-              </tr>
-              <tr>
-                <td>{t('servicesTable.visualization')}</td>
-                <td>{t('servicesTable.visualizationDesc')}</td>
-              </tr>
-              <tr>
-                <td>{t('servicesTable.integration')}</td>
-                <td>{t('servicesTable.integrationDesc')}</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <div className="cta-box">
-            <h2>{t('goalTitle')}</h2>
-            <p>{t('goalText')}</p>
+            </Link>
           </div>
         </div>
       </section>
