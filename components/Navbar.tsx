@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import LanguageSwitcher from './LanguageSwitcher';
+import Image from 'next/image';
 
 // ─── Icons ──────────────────────────────────────────────────────────────────
 
@@ -149,8 +150,15 @@ export default function Navbar() {
       <div className="navbar-container">
 
         {/* Brand — always far left */}
-        <Link href="/" className="navbar-brand">
-          AJB Engineering
+        <Link href="/" className="navbar-brand" aria-label="AJB Engineering home">
+         <Image
+           src="/AJB%20logo%202026-V3.svg"
+           alt="AJB Engineering"
+           width={173}
+           height={82}
+           priority
+           className="navbar-logo"
+         />
         </Link>
 
         {/* ── Mobile only ─────────────────────────────────────────────── */}

@@ -153,6 +153,13 @@ body {
   text-decoration: none;
   letter-spacing: 0.5px;
   transition: color var(--transition-fast);
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: auto;
+  height: 32px;
 }
 
 .navbar-brand:hover {
