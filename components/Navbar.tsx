@@ -152,7 +152,7 @@ export default function Navbar() {
         {/* Brand — always far left */}
         <Link href="/" className="navbar-brand" aria-label="AJB Engineering home">
          <Image
-           src="/AJB%20logo%202026-V3.svg"
+           src={isDark ? '/AJB%20logo%202026-V3-light.svg' : '/AJB%20logo%202026-V3.svg'}
            alt="AJB Engineering"
            width={173}
            height={82}
